@@ -80,6 +80,14 @@ int main( void )
       scanf( "%u", &choice );
    } // end while
   /* Clear all nodes at the end of nodes*/
+  LLPtr tempPtr;
+  tempPtr=startPtr;
+  while(tempPtr!=NULL){
+    startPtr=tempPtr->nextPtr;
+    printf("Deleting %d %s...\n",tempPtr->ID,tempPtr->name);
+    free(tempPtr);
+    tempPtr=startPtr;
+      }
    puts( "End of run." );
 } // end main
 
