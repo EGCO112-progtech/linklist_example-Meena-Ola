@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "normal",
-      "setup": "gcc main.c -o ll",
+      "setup": "make",
       "run": "./ll 655 mi 555 bi 444 gi",
       "input": "",
       "output": "",
