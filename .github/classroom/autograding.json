@@ -3,12 +3,12 @@
     {
       "name": "normal",
       "setup": "make",
-      "run": "./ll 655 mi 555 bi 444 gi",
+      "run": "./ll 3",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
-      "points": null
+      "timeout": 2,
+      "points": 1
     }
   ]
 }
