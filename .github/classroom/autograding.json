@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "normal",
+      "setup": "gcc main.c -o ll",
+      "run": "./ll 655 mi 555 bi 444 gi",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
