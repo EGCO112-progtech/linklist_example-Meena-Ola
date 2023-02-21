@@ -84,7 +84,7 @@ int main( void )
   tempPtr=startPtr;
   while(tempPtr!=NULL){
     startPtr=tempPtr->nextPtr;
-    printf("Deleting %d %s...\n",tempPtr->ID,tempPtr->name);
+    printf("Deleting %d %s...\n",tempPtr->ID,tempPtr->iname);
     free(tempPtr);
     tempPtr=startPtr;
       }
